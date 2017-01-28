@@ -48,13 +48,27 @@
         }, 2000, 'easeOutCubic');
         event.preventDefault();
     });
-	
+
 	/*****************************
 	* Tabs
 	*****************************/
 	$('#schedule-tabs a').click(function (e) {
 	  e.preventDefault()
 	  $(this).tab('show')
+	});
+	/****************************/
+
+	/*****************************
+	* Carousel
+	*****************************/
+	$('#carousel').slick({
+	  infinite: true,
+	  slidesToShow: 3,
+	  slidesToScroll: 3,
+	  centerMode: true,
+	  centerPadding: 50,
+	  variableWidth: true,
+	  // lazyLoad: 'ondemand',
 	});
 	/****************************/
 })();

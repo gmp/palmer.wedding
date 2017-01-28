@@ -440,6 +440,15 @@ header {
   border: 2px solid #333;
   margin-top: 80px;
 }
+
+.carousel {
+  margin: 80px 40px 0 40px;
+}
+
+.carousel-img {
+  height: 300px;
+  padding: 0 10px;
+}
 /**************************
 	7. Register section
 ***************************/
