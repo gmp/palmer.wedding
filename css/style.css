@@ -453,6 +453,10 @@ header {
   height: 300px;
   padding: 0 10px;
 }
+
+.location-header-separate {
+  margin-top: 5px;
+}
 /**************************
 	7. Register section
 ***************************/
@@ -467,20 +471,24 @@ header {
 .register .pricing-options .btn {
   min-width: 25%;
 }
+
+.register .event-map {
+  padding-right: 0;
+}
+
 .register .event-map .map {
   width: 100%;
   height: 100%;
 }
-.register .event-map .info {
-  position: absolute;
-  bottom: 2rem;
-  right: 2rem;
-  background: #fff;
-  padding: 0 20px 10px;
-  z-index: 99;
-  border: 2px solid #333;
-  color: #333;
+
+.register .event-map .embed-map {
+  pointer-events: none;
 }
+
+.register .event-map .embed-map.scrollable {
+  pointer-events: auto;
+}
+
 /**************************
 	8. Supporters section
 ***************************/
@@ -692,13 +700,7 @@ footer h3 {
     width: 100%;
     height: 400px;
     margin-top: 3rem;
-  }
-  .event-map .info {
-    bottom: 0rem !important;
-    right: 0rem !important;
-    width: 100%;
-    border-left-width: 0px !important;
-    border-right-width: 0px !important;
+    margin-bottom: 3rem;
   }
 }
 /**************************

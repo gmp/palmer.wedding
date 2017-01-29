@@ -383,71 +383,47 @@
     <!-- Registration section -->
     <section id="location" class="register">
         <div class="container">
-            <div class="col-sm-12">
-                <h1 class="wow fadeInUp">Registration</h1>
+            <div class="col-sm-6">
+                <h1 class="wow fadeInUp">Location</h1>
+                <hr class="location-header-separate">
+                <h4>The Firehouse Restaurant</h4>
+                <p>
+                    1112 2nd St
+                    <br>
+                    Sacramento, CA 95814
+                    <br>
+                    Ceremony starts @ 4:30p
+                    <br>
+                </p>
                 <br>
+                <h1 class="wow fadeInUp">Accommondations</h1>
+                <hr class="location-header-separate">
+                <p>
+                    There are <a href="https://www.google.com/maps/search/hotels/@38.5815639,-121.504931,15z/data=!3m1!4b1!4m8!2m7!3m6!1shotels!2sThe+Firehouse+Restaurant,+1112+2nd+St,+Sacramento,+CA+95814!3s0x809ad6cd2ca46edb:0x3bcc0620d177f1cc!4m2!1d-121.504931!2d38.581531" target="_blank">multiple hotels</a> in the downtown Sacramento area. For convenience, walkability, and comfort, we recommend the below:
+                </p>
+                <h4>Embassy Suites</h4>
+                <p>
+                    100 Capitol Mall
+                    <br>
+                    Sacramento, CA 95814
+                    <br>
+                    <a href="http://embassysuites3.hilton.com/en/hotels/california/embassy-suites-by-hilton-sacramento-riverfront-promenade-SACESES/index.html">More Info</a>
+                </p>
             </div>
-
-            <!-- Registration form -->
-            <form>
-                <div class="col-sm-6">
-
-                    <!-- First Name -->
-                    <div class="form-group wow fadeInUp">
-                        <input type="text" class="form-control" name="first_name" placeholder="First Name" required>
-                    </div>
-
-                    <!-- Last Name -->
-                    <div class="form-group wow fadeInUp">
-                        <input type="text" class="form-control" name="last_name" placeholder="Last Name" required>
-                    </div>
-
-                    <!-- Email -->
-                    <div class="form-group wow fadeInUp">
-                        <input type="email" class="form-control" name="email" placeholder="Email" required>
-                    </div>
-
-                    <!-- Phone -->
-                    <div class="form-group wow fadeInUp">
-                        <input type="tel" class="form-control" name="phone" placeholder="Phone" required>
-                    </div>
-
-                    <!-- Pricing plans selection -->
-                    <div class="form-group wow fadeInUp">
-                        <div class="btn-group pricing-options" data-toggle="buttons">
-                          <h3>Select pricing plan</h3>
-                          <label class="btn btn-default active">
-                            <input type="radio" name="plan" id="option1" autocomplete="off" checked> Early Bird
-                          </label>
-                          <label class="btn btn-default">
-                            <input type="radio" name="plan" id="option2" autocomplete="off"> Pro
-                          </label>
-                          <label class="btn btn-default">
-                            <input type="radio" name="plan" id="option3" autocomplete="off"> VIP
-                          </label>
-                        </div>
-                    </div>
-
-                    <!-- Register button -->
-                    <button type="submit" class="btn btn-default wow fadeInUp">REGISTER <i class="fa fa-paper-plane-o"></i>
-                    </button>
-                </div>
-            </form>
-            <!-- Registration form -->
-        </div>
-
-        <!-- Map -->
-        <div class="event-map wow fadeIn" data-latitude="51.500946" data-longitude="-0.129050">
-
-            <!-- Map details -->
-            <div class="info text-center wow bounceIn">
-                <h3>One Great George Street</h3>
-                <p>1 Great George Street <br>
-                London, SW1P 3AA</p>
+            <!-- Map -->
+            <div id="map" class="col-sm-6 event-map wow fadeIn">
+                <iframe
+                    class="embed-map"
+                    width="100%"
+                    height="100%"
+                    frameborder="0"
+                    style="border:0"
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12475.707626052847!2d-121.504931!3d38.581531!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3bcc0620d177f1cc!2sThe+Firehouse+Restaurant!5e0!3m2!1sen!2sus!4v1485653446378"
+                >
+                </iframe>
             </div>
-            <div id="map" class="map"></div>
+            <!-- End of Map -->
         </div>
-        <!-- End of Map -->
     </section>
     <!-- End of Registration section -->
 
