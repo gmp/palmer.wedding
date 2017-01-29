@@ -318,6 +318,10 @@ header {
   transition: 0.5s ease;
   width: 90%;
 }
+.schedule li p img {
+  width: 100%;
+}
+
 .schedule li .line {
   top: 0;
   position: absolute;
@@ -366,7 +370,7 @@ header {
 .schedule li:hover p,
 .schedule li:focus p,
 .schedule li:active p {
-  max-height: 10rem;
+  max-height: 100%;
   opacity: 1;
 }
 .schedule li:hover .line,
