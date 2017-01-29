@@ -238,7 +238,7 @@ header {
 .event-name {
   margin: 2rem 0;
   font-size: 8rem;
-  line-height: 6rem;
+  line-height: 8rem;
   font-weight: 400;
   text-transform: uppercase;
 }
@@ -617,6 +617,7 @@ footer h3 {
 @media screen and (max-width: 550px) {
   .event-name {
     font-size: 6rem;
+    line-height: 6rem;
   }
   .event-details {
     font-size: 2rem;
