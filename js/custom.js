@@ -7,8 +7,8 @@
 			'day': 		parseInt($('#countdown').data('day')),
 			'month': 	parseInt($('#countdown').data('month')),
 			'year': 	parseInt($('#countdown').data('year')),
-			'hour': 	0,
-			'min': 		0,
+			'hour': 	parseInt($('#countdown').data('hour')),
+			'min': 		parseInt($('#countdown').data('min')),
 			'sec': 		0
 		},
 		omitWeeks: true
