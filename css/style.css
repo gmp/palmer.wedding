@@ -489,6 +489,18 @@ header {
   pointer-events: auto;
 }
 
+.register .hotel-note {
+  font-size: 13px;
+  font-style: italic;
+}
+.register .hotel-option {
+  margin-bottom: 15px;
+}
+
+.register .hotel-option h4 {
+  margin-bottom: 5px;
+}
+
 /**************************
 	8. Supporters section
 ***************************/
