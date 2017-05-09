@@ -421,6 +421,10 @@ header {
 .speaker-social-links a:hover {
   color: #eee;
 }
+
+.speaker-details .img-container img {
+  margin: auto;
+}
 /**************************
 	6. Pricing section
 ***************************/
@@ -657,6 +661,12 @@ footer h3 {
   }
   .speaker-details {
     text-align: center;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .speaker-details .img-container {
+    min-height: 247.5px;
   }
 }
 /**************************
