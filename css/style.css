@@ -517,6 +517,18 @@ header {
   height: 150px;
   margin-top: 3rem;
 }
+.supporter a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  border: 2px solid transparent;
+  -webkit-transition: border-color 300ms;
+      -ms-transition: border-color 300ms;
+          transition: border-color 300ms;
+}
+.supporter a:hover {
+  border: 2px solid #333333;
+}
 .supporter img {
   position: absolute;
   top: 50%;
@@ -531,6 +543,10 @@ header {
   filter: gray;
   -webkit-filter: grayscale(1);
   filter: grayscale(1);
+}
+.supporter a:hover img {
+  filter: initial;
+  -webkit-filter: initial;
 }
 /**************************
 	9. Footer
