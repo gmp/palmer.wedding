@@ -762,6 +762,10 @@ footer h3 {
     display: block;
     height: 100px;
   }
+
+  .supporter img {
+    filter: initial;
+  }
 }
 /**************************
 		10.7 Footer
