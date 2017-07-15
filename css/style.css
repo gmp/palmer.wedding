@@ -476,6 +476,10 @@ header {
   min-width: 25%;
 }
 
+.register .valet-note {
+  font-size: 13px;
+  font-style: italic;
+}
 .register .event-map {
   padding-right: 0;
 }
